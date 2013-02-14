@@ -1,0 +1,14 @@
+{
+    "name": "Frame New Tab",
+    "description": "Context menu option to open frames in new tab",
+    "version": "0.1",
+    "background": {
+        "scripts": ["frame_new_tab.js"]
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "browser_action": { },
+    "manifest_version": 2
+}
